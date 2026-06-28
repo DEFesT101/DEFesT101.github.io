@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Наши специалисты — Врачи центра</title>
+  <meta name="description" content="Команда высококвалифицированных урологов. Главный врач Попов С.В. и ведущие специалисты центра.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Логотип центра">
+        <span class="logo-text-full">Городской центр эндоскопической урологии и новых технологий Санкт-Петербурга</span>
+      </a>
+
+      <nav class="nav-desktop">
+        <a href="index.html">Главная</a>
+        <a href="index.html#about">О центре</a>
+        <a href="directions.html">Направления</a>
+        <a href="doctors.html">Врачи</a>
+        <a href="chief-doctor.html">Главный врач</a>
+      </nav>
+
+      <div class="header-right">
+        <a href="tel:+78125761157" class="phone-link">+7 (812) 57-611-57</a>
+        <a href="index.html#contact" class="btn-primary">Записаться</a>
+      </div>
+
+      <button class="menu-btn" aria-label="Меню">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="index.html">Главная</a>
+    <a href="index.html#about">О центре</a>
+    <a href="directions.html">Направления</a>
+    <a href="doctors.html">Врачи</a>
+    <a href="chief-doctor.html">Главный врач</a>
+    <a href="tel:+78125761157" class="phone-link">+7 (812) 57-611-57</a>
+    <a href="index.html#contact" class="btn-primary">Записаться на приём</a>
+  </div>
+
+  <!-- HERO SMALL -->
+  <section class="hero-small" style="height: 40vh;">
+    <img src="images/doctor-book.jpg" alt="">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="reveal">Наши специалисты</h1>
+      <p class="reveal">Команда высококвалифицированных урологов</p>
+    </div>
+  </section>
+
+  <!-- DOCTORS GRID -->
+  <section class="section doctors-section">
+    <div class="container">
+      <div class="doctors-grid stagger-children">
+
+        <!-- Попов С.В. -->
+        <a href="chief-doctor.html" class="doctor-card reveal-child">
+          <div class="doctor-card-img">
+            <img src="images/popov-portrait.png" alt="Попов Сергей Валерьевич">
+          </div>
+          <div class="doctor-card-body">
+            <h3>Попов Сергей Валерьевич</h3>
+            <p class="doctor-title">Главный врач Клинической Больницы "Святителя Луки", руководитель центра</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag primary">Главный врач</span>
+              <span class="doctor-tag accent">Д.М.Н.</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Скрябин О.Н. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Скрябин Олег Николаевич</h3>
+            <p class="doctor-title">Научный руководитель Центра</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+              <span class="doctor-tag accent">Д.М.Н.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Гусейнов Р.Г. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Гусейнов Руслан Гусейнович</h3>
+            <p class="doctor-title">Заместитель главного врача по научной деятельности</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+              <span class="doctor-tag accent">К.М.Н.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Топузов Т.М. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Топузов Тимур Марленович</h3>
+            <p class="doctor-title">Заведующий отделением урологии №1</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Чернов К.Е. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Чернов Кирилл Евгеньевич</h3>
+            <p class="doctor-title">Заведующий урологическим отделением №2. Врач-уролог, онколог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+              <span class="doctor-tag primary">Онкоуролог</span>
+              <span class="doctor-tag accent">К.М.Н.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Вязовцев П.В. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Вязовцев Павел Вячеславович</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Гринь Е.А. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Гринь Евгений Александрович</h3>
+            <p class="doctor-title">Врач уролог-андролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+              <span class="doctor-tag primary">Андролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Давыдов А.В. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Давыдов Алексей Викторович</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Даниелян Д.А. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Даниелян Давид Арамович</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Зайцев А.С. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Зайцев Артем Сергеевич</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Лиджиева А.З. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Лиджиева Александра Зуллаевна</h3>
+            <p class="doctor-title">Врач-терапевт, эндокринолог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag primary">Терапевт</span>
+              <span class="doctor-tag">Эндокринолог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Малевич С.М. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Малевич Сергей Михайлович</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ложкин А.А. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Ложкин Алексей Александрович</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Пазин И.С. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Пазин Иван Сергеевич</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Семикина С.П. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Семикина София Павловна</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Сытник Д.А. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Сытник Дмитрий Анатольевич</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Сулейманов М.М. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Сулейманов Мурад Магомедович</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Хюннинен Н.А. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Хюннинен Наталья Александровна</h3>
+            <p class="doctor-title">Врач-уролог-андролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+              <span class="doctor-tag primary">Андролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Цой А.В. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Цой Алексей Валерьевич</h3>
+            <p class="doctor-title">Врач-уролог, К.М.Н.</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+              <span class="doctor-tag accent">К.М.Н.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Юсупова А.В. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Юсупова Анастасия Владимировна</h3>
+            <p class="doctor-title">Врач-терапевт</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag primary">Терапевт</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Грушевский Р.О. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Грушевский Роман Олегович</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Кондратьев А.С. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Кондратьев Антон Сергеевич</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Егорова М.Ю. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Егорова Мария Юрьевна</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Горелик М.Л. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Горелик Максим Леонидович</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Башин А.В. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Башин Андрей Вячеславович</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Малик В.В. -->
+        <div class="doctor-card reveal-child">
+          <div class="doctor-card-img doctor-placeholder">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div class="doctor-card-body">
+            <h3>Малик Валерия Витальевна</h3>
+            <p class="doctor-title">Врач-уролог</p>
+            <div class="doctor-tags">
+              <span class="doctor-tag">Уролог</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <a href="index.html"><img src="images/logo.png" alt="" class="footer-logo"></a>
+            <p>Городской центр эндоскопической урологии и новых технологий Санкт-Петербурга.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Разделы</h4>
+            <a href="index.html">Главная</a>
+            <a href="chief-doctor.html">Главный врач</a>
+            <a href="doctors.html">Врачи</a>
+            <a href="directions.html">Направления</a>
+          </div>
+          <div class="footer-col">
+            <h4>Контакты</h4>
+            <p style="margin-top:0">Санкт-Петербург, ул. Чугунная д.46</p>
+            <a href="tel:+78125761157">+7 (812) 57-611-57</a>
+            <a href="mailto:info@lucaclinic.ru">info@lucaclinic.ru</a>
+          </div>
+          <div class="footer-col">
+            <h4>Мы в соцсетях</h4>
+            <div class="footer-social">
+              <a href="https://www.youtube.com/channel/UCXZlemTUK0ECRMNh_DsWmQg" target="_blank" rel="noopener" aria-label="YouTube">
+                <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              <a href="https://vk.com/endourocenter" target="_blank" rel="noopener" aria-label="VK">
+                <svg viewBox="0 0 24 24"><path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.862-.525-2.05-1.714-1.033-1.01-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4 8.673 4 8.231c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.847 2.456 2.274 4.607 2.862 4.607.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.644v3.473c0 .373.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.15-3.574 2.15-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.644-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.049.17.49-.085.744-.576.744z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Городской центр эндоскопической урологии и новых технологий. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
